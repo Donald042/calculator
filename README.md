@@ -8,6 +8,7 @@ A very simple calculator, built as a Progressive Web App.
 
 ### Changelog
 
-**Version x.x.x**
+**Version 1.0.0**
 
-- insert changes here
+- Make functions into a single object
+- Use localStorage instead of cookies
