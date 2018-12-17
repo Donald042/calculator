@@ -51,10 +51,15 @@
 		<button class="button operator" onclick="Calculator.type('+')">+</button>
 		<button class="button number" onclick="Calculator.type('0')">0</button>
 		<button class="button number" onclick="Calculator.type('.')">.</button>
-		<button class="button function" onclick="Calculator.display('')">C</button>
+   	<button class="button function" onclick="Calculator.display('')">C</button>
 		<button class="button operator" onclick="Calculator.e()">=</button>
+		<button class="button number" onclick="Calculator.type(Math.PI)">π</button>
+	  <button class="button number" onclick="Calculator.type(Math.E)">e</button>
+    <button class="button number" onclick="Calculator.type('(')">(</button>
+		<button class="button number" onclick="Calculator.type(')')">)</button>
 	</div>
-	<script>
+
+<script>
 if ('serviceWorker' in navigator) {
 	window.addEventListener('load', function() {
   		navigator.serviceWorker.register('sw.js').then(function(registration) {
